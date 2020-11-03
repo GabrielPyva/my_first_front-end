@@ -26,7 +26,7 @@ Esse comando vai te mostrar algumas informações como:
 
 * Em que **branch/ramo** você está.
 * **commits** ativos.
-* Arquivos que não estão sendo monitorados.
+* Arquivos que não estão sendo rastreados.
 
 ## Adicionando arquivos para revisão
 
@@ -38,10 +38,14 @@ ou se você quiser adicionar tudo:
 
 `git add .`
 
-**Nota: É importante saber que ADD não está adicionando um arquivo novo ao repositório, mas sim dizendo que o arquivo (sendo novo ou não) está sendo preparado para entrar na próxima revisão do repositório.**
+**Nota:**É importante saber que ADD não está adicionando um arquivo novo ao repositório, mas sim dizendo que o arquivo (sendo novo ou não) está sendo preparado para entrar na próxima revisão do repositório. É o que se chama de colocar em estado de **staged**.
 
 ## Salvando as alterações
 
-No git, o termo acima não é muito utilizado pois ele se resume a uma palavra só: __commit__. E quando se salva alguma alteração no git, é obrigatório deixar uma mensagem explicando o que foi alterado. O comando é o seguinte:
+No git, o termo acima não é muito utilizado pois ele se resume a uma palavra só: __snapshot__. E quando se salva alguma alteração no git, é obrigatório deixar uma mensagem explicando o que foi alterado. O comando é o seguinte:
 
 `git commit -m "mensagem"`
+
+### Estados de um arquivo
+
+Um arquivo pode possuir 2 estados: rastreado e não rastreado. Rastreados são arquivos que foram incluídos no **último snapshot**. Não rastreados são todo o resto.
