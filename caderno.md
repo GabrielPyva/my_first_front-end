@@ -28,9 +28,9 @@ Esse comando vai te mostrar algumas informações como:
 * **commits** ativos.
 * Arquivos que não estão sendo monitorados.
 
-## Fazendo o Git fazer o trabalho dele
+## Adicionando arquivos para revisão
 
-Quando um repositório git é iniciado, ele não começa a monitorar as alterações dos seus arquivos internos de imediato, pois isso quem controla é o usuário. E o comando para adicionar alterações é:
+Quando um repositório git é iniciado, ele não começa a monitorar as alterações dos seus arquivos internos de imediato, pois isso quem controla é o usuário. E o comando para adicionar alterações de algum(s) arquivo(s) é:
 
 `git add <arquivos...>`
 
@@ -40,4 +40,8 @@ ou se você quiser adicionar tudo:
 
 **Nota: É importante saber que ADD não está adicionando um arquivo novo ao repositório, mas sim dizendo que o arquivo (sendo novo ou não) está sendo preparado para entrar na próxima revisão do repositório.**
 
-    
+## Salvando as alterações
+
+No git, o termo acima não é muito utilizado pois ele se resume a uma palavra só: __commit__. E quando se salva alguma alteração no git, é obrigatório deixar uma mensagem explicando o que foi alterado. O comando é o seguinte:
+
+`git commit -m "mensagem"`
