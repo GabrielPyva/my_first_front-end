@@ -65,3 +65,4 @@ Esse comando vai mostrar **todos os commits** realizados até então com os segu
 * A **mensagem** de commit.
 
 ### Maneiras de visualizar o histórico de commits
+
