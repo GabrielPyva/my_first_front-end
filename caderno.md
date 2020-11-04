@@ -6,7 +6,7 @@ O git não é nada mais nada menos que um **Sistema de Controle de Versões (VCS
 
 ## Onde acessar o Git
 
-O git é acessível no terminal do computador ou em qualquer emulador que o aceite
+O git é acessível no terminal do computador ou em qualquer emulador que o aceite.
 
 ## Iniciando um repositório Git
 
@@ -48,4 +48,20 @@ No git, o termo acima não é muito utilizado pois ele se resume a uma palavra s
 
 ### Estados de um arquivo
 
-Um arquivo pode possuir 2 estados: rastreado e não rastreado. Rastreados são arquivos que foram incluídos no **último snapshot**. Não rastreados são todo o resto.
+Um arquivo pode possuir 2 estados: rastreado e não rastreado. Rastreados são arquivos que foram incluídos no **último snapshot**. E os Não rastreados são todo o resto.
+
+## Como ver o histórico de snapshots/commits
+
+Às vezes, para detectar algum bug ou erro de versão, ou até mesmo para verificar algum commit usamos o comando:
+
+`git log`
+
+Esse comando vai mostrar **todos os commits** realizados até então com os seguintes dados:
+
+* O **hash** do commit (que é o numero hexadecimal que o identifica).
+* A **branch** do commit.
+* O **autor** do commit.
+* A **data** do commit.
+* A **mensagem** de commit.
+
+### Maneiras de visualizar o histórico de commits
