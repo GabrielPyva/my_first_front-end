@@ -82,3 +82,4 @@ Por algum motivo, você poder querer que o Git não saiba nem que seu arquivo ex
 
 Dentro desse arquivo serão escritos, em cada linha, o nome dos arquivos a serem ignorados pelo Git.
 
+asd
